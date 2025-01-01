@@ -13,3 +13,9 @@ Given a 4x4 board containing some chess pieces, find a sequence of captures such
 2) All pieces can capture each other. Unlike traditional chess, all pieces are of the same color and can capture each other.
 3) Every move must be a capture. In other words, each move should involve one of the pieces on the board capturing another piece on the board.
 4) The puzzle has been solved if there is only one piece left on the board.
+
+#### Files
+
+* `pieces.py`: Defines the piece movement
+* `solve_puzzle.py`: Does the DFS to solve the puzzle
+* `tests.py`: Contains unit tests
